@@ -34,9 +34,9 @@ if(isset($_REQUEST["install"]) && $_REQUEST["install"] == "yes")
         $sql = "INSERT INTO voterlist (VoterID, VoterName,Password,choice) VALUES ('101','Voter1','Voter1',''),";
        // $sql.= "";
         $sql.= "('102','Voter2','Voter2',''),";
-        $sql.= "('103','Voter3','Voter3','')";
+        $sql.= "('103','Voter3','Voter3',''),";
         $sql.= "('104','Voter4','Voter4',''),";
-        $sql.= "('105','Voter5','Voter5',''),";
+        $sql.= "('105','Voter5','Voter5','')";
 
         $recordset = $link->query($sql);
         if(!$recordset)
@@ -117,10 +117,9 @@ if(isset($_REQUEST["install"]) && $_REQUEST["install"] == "yes")
         // Populates the table 'admin' with the default users
         $sql = "INSERT INTO admin (name, password) VALUES ('admin', 'admin'),";
         $sql.= "('aashish', '12345'),";
-        $sql.="('rayyan','12345')"
+        $sql.="('rayyan','12345')";
 
         $recordset = $link->query($sql);
-
         if(!$recordset)
         {
                 die("Error: " . $link->error);

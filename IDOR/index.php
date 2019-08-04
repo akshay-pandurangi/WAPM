@@ -33,6 +33,7 @@ if(isset($_POST['submit'])){
 	<title>IDOR-Unpatched</title>
 </head>
 <body>
+  <p align="right"><a href="ViewIdor.php"><button>View Code</button></a></p>
 	<h1>Login Form</h1>
 	<form method="post" action="index.php">
 		<h3>Username</h3><br>
