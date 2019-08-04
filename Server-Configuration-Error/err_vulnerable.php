@@ -8,13 +8,9 @@
 <body>
 <div id="main">
     <center><h1>Find Sum</h1>
-
+          <p align="right"><a href="vulcodeview.php"><button>View Code</button></a></p>
     <form action="<?php echo($_SERVER["SCRIPT_NAME"]);?>" method="GET">
-
-
         <input type="text" id="query" name="q" placeholder="Number-1"></p>
-
-
         <input type="text" id="query1" name="v" placeholder="Number-2"></p>
         <button type="submit" name="form" value="submit">Add</button>
     </form>

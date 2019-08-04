@@ -8,21 +8,15 @@
 <body>
 <div id="main">
     <center><h1>Find Sum</h1>
-
-    <form action="index.php" method="GET">
-
-
+    <p align="right"><a href="patchcodeview.php"><button>View Code</button></a></p>
+    <form action="Err_patched.php" method="GET">
         <input type="text" id="query" name="q" placeholder="Number-1"></p>
-
-
         <input type="text" id="query1" name="v" placeholder="Number-2"></p>
         <button type="submit" name="form" value="submit">Add</button>
     </form>
     <br />
     <?php
     error_reporting(0);
-
-
       if(isset($_GET["q"]) && isset($_GET["v"]))
       {
           $n1 = $_GET["q"];
@@ -30,7 +24,5 @@
           $a = $n1 + $n2;
           echo "<u>Answer</u> : <h3>" . $a. "</h3><br>" ;
       }
-
     ?>
-
 </html>

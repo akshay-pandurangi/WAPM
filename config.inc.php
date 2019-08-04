@@ -1,7 +1,7 @@
 <?php
 include("settings.php");
-$server = $db_server;
-$username = $db_username;
-$password = $db_password;
+$server = "127.0.0.1";
+$username = "root";
+$password = "";
 $database = $db_name;
 ?>
