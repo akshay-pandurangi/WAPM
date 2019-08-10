@@ -1,1 +1,1 @@
-<?php show_source("patchindex.php")?>;
+<?php show_source("index.php")?>;
