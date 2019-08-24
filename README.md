@@ -1,3 +1,5 @@
 # WAPM
-A repository demonstrating some of the most common vulnerabilities that are exploited on web sites.
-Also, some patches are included to give insights into patching these vulnerabilities
+A Lab Setup, demonstrating some of the most common vulnerabilities that are exploited on web applications.
+Also, some patches are included to give insights into mitigating these vulnerabilities.
+
+Note: Use _**install.php**_ to configure the database.
